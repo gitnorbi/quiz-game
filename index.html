@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="quiz.js" defer></script>
+    <!-- defer attribute: A script that will be downloaded in parallel to parsing the page,
+        and executed after the page has finished parsing:-->
+    <title>QuizGame</title>
+</head>
+<body>
+    <div class="container">
+        <div class="scoreContainer hide box">
+            <div class="score">Score:</div>
+            <div class="bestScore">Best Score:</div>
+            
+        </div>
+        <div id="question-container" class="hide">
+            <div id="question" class="box">Question</div>
+            <div class="counters">
+                <div class="questionsCounter">0</div>
+                <div class="scoreCounter">0</div>
+            </div>
+            
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn" >Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+
+            </div>
+
+        </div>
+        <div class="controls">
+            <div class="topicChoose-container">
+                <div class="title btn">Choose your topic</div>
+                <div class="topics">
+                    <div class="js btn" id="h"> Javascript</div>
+                    <div class="html btn">HTML</div>
+                    <div class="css btn">CSS</div>
+                </div>
+
+            </div>
+            <button id="start-btn" class="start-btn btn hide ">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="topic-btn" class="topic-btn btn hide">Topics</button>
+        </div>
+    </div>
+ 
+    
+</body>
+</html>

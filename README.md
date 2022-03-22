@@ -1,5 +1,5 @@
 # quiz-game
-
+<pre>
 I made this project based on a youtube tutorial and added some new features to it
 
 The tutorial:
@@ -18,3 +18,4 @@ The features i added:
    (does not save best scores, if you refresh the page, -maybe later I add this feature)
 
     -not only do the questions come in random order but the answers too
+    </pre>
